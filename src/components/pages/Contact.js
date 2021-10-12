@@ -5,17 +5,13 @@ export default function Contact() {
     <div>
       <h1>Contact Page</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+      <nav id="contact-nav">
+                        <p><a href="mailto:themetalsaint@gmail.com">themetalsaint@gmail.com</a></p>
+                        <p><a href="#">910-366-4620</a></p>
+                        <p><a href="https://github.com/themetalsaint"target="_blank">GitHub Account</a></p>
+                        <p><a href="https://www.linkedin.com/in/rachael-d-0601aa206/"target="_blank">LinkedIn Account</a></p>
+                        <p><a href="https://docs.google.com/document/d/11TbQfZ3ru86eBAUUw7hzksDG_qh-f56PDvVjIMrrKGM/edit?usp=sharing"target="_blank">View My Resume</a></p>
+                    </nav>
       </p>
     </div>
   );
